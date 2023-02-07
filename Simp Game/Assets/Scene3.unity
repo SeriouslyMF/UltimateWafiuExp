@@ -2521,8 +2521,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2129308420}
-  selectedCommands:
-  - {fileID: 2129308444}
+  selectedCommands: []
   variables:
   - {fileID: 2129308371}
   - {fileID: 2129308409}
@@ -3600,7 +3599,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1600926467}
   text:
     stringRef: {fileID: 0}
-    stringVal: '{$money}'
+    stringVal: ${$money}
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &2129308408
@@ -4384,7 +4383,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1600926467}
   text:
     stringRef: {fileID: 0}
-    stringVal: '{$money}'
+    stringVal: ${$money}
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &2129308433
@@ -5730,7 +5729,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1600926467}
   text:
     stringRef: {fileID: 0}
-    stringVal: '{$money}'
+    stringVal: ${$money}
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &2129308455
@@ -6091,7 +6090,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1600926467}
   text:
     stringRef: {fileID: 0}
-    stringVal: '{$money}'
+    stringVal: ${$money}
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &2129308464
