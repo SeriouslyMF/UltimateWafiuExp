@@ -906,6 +906,8 @@ GameObject:
   - component: {fileID: 373853971}
   - component: {fileID: 373854013}
   - component: {fileID: 373854014}
+  - component: {fileID: 373854016}
+  - component: {fileID: 373854015}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -953,6 +955,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 373853914}
   commandList:
+  - {fileID: 373854015}
+  - {fileID: 373854016}
   - {fileID: 373853925}
   - {fileID: 373853924}
   - {fileID: 373853923}
@@ -983,9 +987,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 373853950}
+  - {fileID: 373853915}
   selectedCommands:
-  - {fileID: 373854014}
+  - {fileID: 373854015}
   variables:
   - {fileID: 373853933}
   - {fileID: 373853932}
@@ -5701,6 +5705,44 @@ MonoBehaviour:
     stringVal: Room
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &373854015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373853913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+  key: money
+  variable: {fileID: 373853933}
+--- !u!114 &373854016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373853913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
+  targetTextObject: {fileID: 1600926467}
+  text:
+    stringRef: {fileID: 0}
+    stringVal: '${$money}
+
+'
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!1 &407306743
 GameObject:
   m_ObjectHideFlags: 0
