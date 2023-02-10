@@ -4795,6 +4795,8 @@ GameObject:
   - component: {fileID: 2129308810}
   - component: {fileID: 2129308815}
   - component: {fileID: 2129308814}
+  - component: {fileID: 2129308817}
+  - component: {fileID: 2129308816}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4852,6 +4854,8 @@ MonoBehaviour:
   - {fileID: 2129308562}
   - {fileID: 2129308561}
   - {fileID: 2129308594}
+  - {fileID: 2129308817}
+  - {fileID: 2129308816}
   - {fileID: 2129308431}
   - {fileID: 2129308433}
   - {fileID: 2129308432}
@@ -4935,9 +4939,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2129308366}
-  selectedCommands:
-  - {fileID: 2129308374}
+  - {fileID: 2129308376}
+  selectedCommands: []
   variables:
   - {fileID: 2129308371}
   - {fileID: 2129308370}
@@ -30996,3 +30999,35 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &2129308816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 528
+  indentLevel: 0
+  key: miyakoRescued
+  variable: {fileID: 2129308591}
+--- !u!114 &2129308817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c657364a3b24e16bdf5946729a8b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 527
+  indentLevel: 0
+  key: akikoRescued
+  variable: {fileID: 2129308592}

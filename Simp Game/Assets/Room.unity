@@ -2448,7 +2448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 224.2474
     y: 189.44342
-    width: 82.97872
+    width: 80.769226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2486,11 +2486,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -14.572735, y: -22.465101}
+  scrollPos: {x: -7.9092054, y: -5.981571}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.94000006
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2599,7 +2599,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 351
     y: 196
-    width: 109.57446
+    width: 104.94505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2626,7 +2626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 209.03093
     y: 97.12358
-    width: 117.02127
+    width: 111.53845
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2652,7 +2652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55
     y: 194
-    width: 112.76595
+    width: 108.24175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3377,7 +3377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 201.96133
     y: 284.3993
-    width: 138.29787
+    width: 132.41757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
