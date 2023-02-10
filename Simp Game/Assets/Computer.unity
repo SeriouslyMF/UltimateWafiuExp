@@ -4789,6 +4789,10 @@ GameObject:
   - component: {fileID: 2129308761}
   - component: {fileID: 2129308760}
   - component: {fileID: 2129308759}
+  - component: {fileID: 2129308813}
+  - component: {fileID: 2129308812}
+  - component: {fileID: 2129308811}
+  - component: {fileID: 2129308810}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4927,7 +4931,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2129308403}
+  - {fileID: 2129308447}
   selectedCommands: []
   variables:
   - {fileID: 2129308371}
@@ -7348,6 +7352,7 @@ MonoBehaviour:
   - {fileID: 2129308656}
   - {fileID: 2129308655}
   - {fileID: 2129308654}
+  - {fileID: 2129308811}
   - {fileID: 2129308653}
   - {fileID: 2129308652}
   - {fileID: 2129308651}
@@ -7391,6 +7396,7 @@ MonoBehaviour:
   - {fileID: 2129308673}
   - {fileID: 2129308672}
   - {fileID: 2129308671}
+  - {fileID: 2129308810}
   - {fileID: 2129308670}
   - {fileID: 2129308669}
   - {fileID: 2129308668}
@@ -7434,6 +7440,7 @@ MonoBehaviour:
   - {fileID: 2129308690}
   - {fileID: 2129308689}
   - {fileID: 2129308688}
+  - {fileID: 2129308812}
   - {fileID: 2129308687}
   - {fileID: 2129308686}
   - {fileID: 2129308685}
@@ -7477,6 +7484,7 @@ MonoBehaviour:
   - {fileID: 2129308639}
   - {fileID: 2129308638}
   - {fileID: 2129308637}
+  - {fileID: 2129308813}
   - {fileID: 2129308636}
   - {fileID: 2129308635}
   - {fileID: 2129308634}
@@ -18969,8 +18977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 343
   indentLevel: 1
-  storyText: Oh wow you helped me reach my donation goal! You're so amazing! Now
-    time to collect your prize!
+  storyText: Oh you helped me reach my donation goal...thanks...I guess...
   description: 
   character: {fileID: 1469196765}
   portrait: {fileID: 0}
@@ -19240,7 +19247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 341
   indentLevel: 0
-  storyText: OMG That is so nice of you! Thanks for the $100!
+  storyText: Ugh...just $100? Come on...you can do better than that!
   description: 
   character: {fileID: 653378940}
   portrait: {fileID: 0}
@@ -20168,10 +20175,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 395
   indentLevel: 1
-  storyText: Oh wow you helped me reach my donation goal! You're so amazing! Now
-    time to collect your prize!
+  storyText: Oh you helped me reach my donation goal...thanks...I guess...
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20439,9 +20445,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 393
   indentLevel: 0
-  storyText: OMG That is so nice of you! Thanks for the $100!
+  storyText: SWEET! Damn dude you must be loaded with cash!
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21367,10 +21373,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 378
   indentLevel: 1
-  storyText: Oh wow you helped me reach my donation goal! You're so amazing! Now
-    time to collect your prize!
+  storyText: Oh you helped me reach my donation goal...thanks...I guess...
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21638,9 +21643,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 376
   indentLevel: 0
-  storyText: OMG That is so nice of you! Thanks for the $100!
+  storyText: Ah sweet! I can buy a lot of sweet sex toys to pleasure myself with
+    this.
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22566,10 +22572,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 361
   indentLevel: 1
-  storyText: Oh wow you helped me reach my donation goal! You're so amazing! Now
-    time to collect your prize!
+  storyText: Oh you helped me reach my donation goal...thanks...I guess...
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22837,9 +22842,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 359
   indentLevel: 0
-  storyText: OMG That is so nice of you! Thanks for the $100!
+  storyText: Thanks simp now I can take my girlfriends  for a night out on the town.
   description: 
-  character: {fileID: 1469196765}
+  character: {fileID: 653378940}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -30894,3 +30899,59 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &2129308810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 524
+  indentLevel: 1
+--- !u!114 &2129308811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 523
+  indentLevel: 1
+--- !u!114 &2129308812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 522
+  indentLevel: 1
+--- !u!114 &2129308813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129308364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f1ca510a57aa47568a5e4ee558ff41f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 521
+  indentLevel: 1
