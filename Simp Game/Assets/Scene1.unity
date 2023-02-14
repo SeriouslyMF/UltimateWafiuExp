@@ -1054,9 +1054,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 485089850}
-  selectedCommands:
-  - {fileID: 485089993}
+  - {fileID: 485089942}
+  selectedCommands: []
   variables:
   - {fileID: 485089880}
   - {fileID: 485089849}
@@ -2980,7 +2979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 177
+    x: 175.4375
     y: 328
     width: 114.06246
     height: 40
