@@ -2682,7 +2682,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1522914943}
   selectedCommands:
-  - {fileID: 1522915159}
+  - {fileID: 1522915127}
   variables:
   - {fileID: 1522914944}
   - {fileID: 1522914946}
@@ -7529,7 +7529,7 @@ MonoBehaviour:
   itemId: 182
   indentLevel: 0
   storyText: Yep! I always carry my trusty daggers with me in case I'm ever backed
-    into a tight corner
+    into a tight corner and need to take some bitches to shanky town.
   description: 
   character: {fileID: 1373658791}
   portrait: {fileID: 0}
