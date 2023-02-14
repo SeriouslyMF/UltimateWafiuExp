@@ -1614,7 +1614,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1463699248}
   selectedCommands:
-  - {fileID: 1463699261}
+  - {fileID: 1463699259}
   variables:
   - {fileID: 1463699260}
   - {fileID: 1463699263}
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  key: akikoactive
+  key: akikioactive
   variable: {fileID: 1463699260}
 --- !u!114 &1463699260
 MonoBehaviour:
