@@ -393,8 +393,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 127555735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 3.58, z: -6.27}
-  m_LocalScale: {x: 2.1813848, y: 2.3111372, z: 1}
+  m_LocalPosition: {x: -0.85, y: 1.82, z: -6.27}
+  m_LocalScale: {x: 0.8718995, y: 0.9857, z: 1}
   m_Children: []
   m_Father: {fileID: 1964933693}
   m_RootOrder: 0
@@ -439,7 +439,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9678db5dc66e4914792a8cfda42b2c4f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130e08e4c7db97a428b95b44821c25b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -983,8 +983,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426184143}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.06, y: 3.83, z: -5.35}
-  m_LocalScale: {x: 2.5743778, y: 2.7620306, z: 1}
+  m_LocalPosition: {x: 3.34, y: -0.96, z: -5.35}
+  m_LocalScale: {x: 1.121399, y: 1.1653007, z: 1}
   m_Children: []
   m_Father: {fileID: 314677135}
   m_RootOrder: 0
@@ -1029,7 +1029,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9411e283b654bb64783a71e56ad70e68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 471bfcffc487eb04c8fadb0a196efbfa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1807,7 +1807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -155.07542, y: 207.34604}
+  scrollPos: {x: 3.1062727, y: 196.43698}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1819,9 +1819,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 721301434}
-  selectedCommands:
-  - {fileID: 721301433}
+  - {fileID: 721301320}
+  selectedCommands: []
   variables:
   - {fileID: 721301401}
   - {fileID: 721301417}
