@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene9.unity
     guid: 27a0de51c430ff44f9be288d65795948
+  - enabled: 1
+    path: Assets/Musician Credit.unity
+    guid: aef1272e689e3a74fb482682d79f4fc7
   m_configObjects: {}
