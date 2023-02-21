@@ -439,7 +439,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 130e08e4c7db97a428b95b44821c25b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b03deb4cf1cd1e4b83ba24bec500efe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1029,7 +1029,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 471bfcffc487eb04c8fadb0a196efbfa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59392ee52ecc5bb4c9ee92d5290390b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1787,6 +1787,11 @@ GameObject:
   - component: {fileID: 721301434}
   - component: {fileID: 721301435}
   - component: {fileID: 721301433}
+  - component: {fileID: 721301437}
+  - component: {fileID: 721301436}
+  - component: {fileID: 721301439}
+  - component: {fileID: 721301438}
+  - component: {fileID: 721301440}
   m_Layer: 0
   m_Name: Scene8
   m_TagString: Untagged
@@ -1819,7 +1824,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 721301320}
+  - {fileID: 721301276}
   selectedCommands: []
   variables:
   - {fileID: 721301401}
@@ -1879,7 +1884,9 @@ MonoBehaviour:
   - {fileID: 721301279}
   - {fileID: 721301285}
   - {fileID: 721301284}
+  - {fileID: 721301437}
   - {fileID: 721301292}
+  - {fileID: 721301436}
   - {fileID: 721301291}
   - {fileID: 721301290}
   - {fileID: 721301289}
@@ -1889,8 +1896,10 @@ MonoBehaviour:
   - {fileID: 721301297}
   - {fileID: 721301296}
   - {fileID: 721301295}
+  - {fileID: 721301439}
   - {fileID: 721301294}
   - {fileID: 721301293}
+  - {fileID: 721301438}
   - {fileID: 721301302}
   - {fileID: 721301301}
   - {fileID: 721301300}
@@ -3050,6 +3059,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 721301440}
   - {fileID: 721301339}
   - {fileID: 721301328}
   - {fileID: 721301338}
@@ -6432,6 +6442,87 @@ MonoBehaviour:
   parentBlock: {fileID: 721301434}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 0}
+--- !u!114 &721301436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 156
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 74c7b5f5134edc9468bc38dd95372fac, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &721301437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 155
+  indentLevel: 0
+--- !u!114 &721301438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 8cd913132ef1dc741bf8b386b3f8e4d0, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &721301439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+--- !u!114 &721301440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721301274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 11c61e35ec2dd904388977a18e5d1d28, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &783146378
 GameObject:
   m_ObjectHideFlags: 0

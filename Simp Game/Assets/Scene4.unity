@@ -1357,6 +1357,8 @@ GameObject:
   - component: {fileID: 1089865969}
   - component: {fileID: 1089865968}
   - component: {fileID: 1089865970}
+  - component: {fileID: 1089865972}
+  - component: {fileID: 1089865971}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1423,10 +1425,12 @@ MonoBehaviour:
   - {fileID: 1089865914}
   - {fileID: 1089865913}
   - {fileID: 1089865912}
+  - {fileID: 1089865972}
   - {fileID: 1089865938}
   - {fileID: 1089865937}
   - {fileID: 1089865936}
   - {fileID: 1089865935}
+  - {fileID: 1089865971}
   - {fileID: 1089865932}
   - {fileID: 1089865931}
   - {fileID: 1089865933}
@@ -1472,7 +1476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 56.296867, y: 50.69883}
+  scrollPos: {x: -8.337275, y: 83.62568}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1484,9 +1488,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1089865969}
+  - {fileID: 1089865909}
   selectedCommands:
-  - {fileID: 1089865970}
+  - {fileID: 1089865971}
   variables:
   - {fileID: 1089865934}
   - {fileID: 1089865965}
@@ -3186,6 +3190,38 @@ MonoBehaviour:
     stringVal: MainMenu
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1089865971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089865907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 51a879d75dbf38c4fa956fc6875d4a23, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &1089865972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089865907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
 --- !u!1 &1092394708
 GameObject:
   m_ObjectHideFlags: 0
